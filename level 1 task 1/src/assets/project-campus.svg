@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="100%" height="100%">
+  <rect width="400" height="200" fill="#0f172a"/>
+  <circle cx="200" cy="90" r="45" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
+  <path d="M185 70 L215 70 L210 95 C210 102 205 108 200 108 C195 108 190 102 190 95 Z" fill="#f59e0b"/>
+  <path d="M196 108 L196 116 L188 116 L188 120 L212 120 L212 116 L204 116 L204 108" fill="#f59e0b"/>
+  <text x="200" y="160" fill="#f8fafc" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle" letter-spacing="1">CAMPUS GIGS</text>
+  <text x="200" y="180" fill="#f59e0b" font-family="sans-serif" font-size="11" text-anchor="middle">1st Place National Youth Festival</text>
+</svg>
