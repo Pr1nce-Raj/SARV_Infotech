@@ -1,0 +1,12 @@
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+.vscode/
+.idea/
+
+# Local build / testing artifacts
+node_modules/
+dist/
+build/
