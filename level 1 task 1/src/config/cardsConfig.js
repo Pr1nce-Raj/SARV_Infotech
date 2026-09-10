@@ -1,0 +1,186 @@
+// Prebuilt configuration data for reusable cards across the portfolio
+// Demonstrating clean data-component interoperability
+
+export const personalInfo = {
+  name: "Prince Raj",
+  title: "Python Developer & Web Enthusiast",
+  tagline: "Building reliable software systems, network security utilities, and modern web applications.",
+  email: "rajprince3457@gmail.com",
+  location: "India",
+  github: "https://github.com/Pr1nce-Raj",
+  linkedin: "https://www.linkedin.com/in/pr1nceraj",
+  resumeUrl: "https://drive.google.com/file/d/1fbIQlElMTKo1eXbC2NgvSP8svz8WXTGp/view?usp=drive_link",
+  aboutText: "I am a dedicated software developer passionate about systems programming, Python automation, and responsive web development. With hands-on experience in socket programming, C, and React, I enjoy building software that solves practical problems and delivers real value.",
+};
+
+export const projectsConfig = [
+  {
+    id: "threat-monitor",
+    title: "Threat_Monitor",
+    category: "Systems & Security",
+    badge: "Featured Project",
+    image: "/assets/project-threat.svg",
+    description: "Real-time network security and packet inspection tool using raw Python sockets, logging port scans, anomalous network activity, and packet dumps.",
+    tags: ["Python", "Socket Programming", "Network Security", "CLI"],
+    link: "https://github.com/Pr1nce-Raj",
+    buttonText: "View on GitHub",
+    highlight: "Raw socket packet analysis",
+    details: "Built using raw sockets in Python on POSIX/Windows systems to monitor incoming TCP/UDP traffic. Flags anomalous port sweeps, SYN flood indicators, and exports timestamped threat logs for incident post-mortems.",
+  },
+  {
+    id: "campus-gigs",
+    title: "Campus Gigs",
+    category: "Web & Collaboration",
+    badge: "1st Place National Winner",
+    image: "/assets/project-campus.svg",
+    description: "Student collaboration and workflow delegation platform winning 1st Place at the National Youth Festival. Features secure role management and task tracking.",
+    tags: ["React", "JavaScript", "REST APIs", "Productivity"],
+    link: "https://github.com/Pr1nce-Raj",
+    buttonText: "View Project",
+    highlight: "National Youth Festival Award",
+    details: "An end-to-end web platform designed to streamline student projects, gig assignments, and peer reviews. Secured 1st place in the National Youth Festival hackathon.",
+  },
+  {
+    id: "study-roadmap-tracker",
+    title: "Study Roadmap Tracker",
+    category: "Cloud & Productivity",
+    badge: "Live Project",
+    image: "/assets/project-study.svg",
+    description: "Comprehensive study progress tracker with daily task management, routine planning, and Google-synced cloud storage via Firebase.",
+    tags: ["React", "Firebase", "Cloud Storage", "Productivity"],
+    link: "https://github.com/Pr1nce-Raj/Study-roadmap-tracker",
+    buttonText: "View Repository",
+    highlight: "Firebase Cloud Sync",
+    details: "Full-stack study progress tracker featuring customized syllabus milestones, daily Pomodoro routine schedules, and cross-device synchronization with Firebase authentication.",
+  },
+  {
+    id: "socket-chat-protocol",
+    title: "Socket Chat Daemon",
+    category: "Systems & Security",
+    badge: "Networking",
+    image: "/assets/project-threat.svg",
+    description: "Multi-threaded client-server messaging system built with raw Python sockets, custom packet header framing, and end-to-end payload integrity checks.",
+    tags: ["Python", "Threading", "Sockets", "TCP/IP"],
+    link: "https://github.com/Pr1nce-Raj",
+    buttonText: "View on GitHub",
+    highlight: "Custom binary message framing",
+    details: "Engineered a lightweight concurrent TCP chat protocol capable of handling multiple client threads simultaneously, graceful disconnect handshakes, and broadcast routing.",
+  },
+  {
+    id: "algo-visualizer",
+    title: "Algorithm Visualizer",
+    category: "Web & Collaboration",
+    badge: "Frontend Tool",
+    image: "/assets/project-campus.svg",
+    description: "Interactive browser visualization for sorting algorithms (QuickSort, MergeSort) and pathfinding algorithms (Dijkstra, BFS) with step-by-step playback.",
+    tags: ["JavaScript", "HTML5 Canvas", "CSS3", "Algorithms"],
+    link: "https://github.com/Pr1nce-Raj",
+    buttonText: "View on GitHub",
+    highlight: "Real-time canvas frame stepping",
+    details: "A visual tool built to illustrate algorithmic time and space complexity, allowing users to tweak array sizes, playback speed, and step through execution lines.",
+  },
+  {
+    id: "task-scheduler-cli",
+    title: "Automated Task Scheduler",
+    category: "Tools & Utilities",
+    badge: "Automation",
+    image: "/assets/project-study.svg",
+    description: "Lightweight background automation daemon in Python for scheduling recurring maintenance tasks, file backup pipelines, and system resource monitors.",
+    tags: ["Python", "CLI", "Cron", "OS Automation"],
+    link: "https://github.com/Pr1nce-Raj",
+    buttonText: "View on GitHub",
+    highlight: "Zero-dependency job runner",
+    details: "Enables developers to register scheduled cron-like jobs with simple JSON configs. Includes automatic log rotation and crash recovery.",
+  },
+];
+
+export const skillsConfig = [
+  {
+    id: "python",
+    title: "Python Development",
+    category: "Backend & Systems",
+    badge: "85% Proficiency",
+    description: "Socket programming, automation scripts, backend utilities, data structures, and CLI tools.",
+    tags: ["Sockets", "OOP", "Automation", "APIs", "Concurrency"],
+  },
+  {
+    id: "web-dev",
+    title: "Web Technologies",
+    category: "Frontend & UI",
+    badge: "90% Proficiency",
+    description: "HTML5, CSS3, modern JavaScript (ES6+), React component architecture, and responsive layouts.",
+    tags: ["React", "JavaScript", "HTML5", "CSS3", "Vite", "Responsive Design"],
+  },
+  {
+    id: "systems",
+    title: "Systems Programming",
+    category: "Low-Level Foundations",
+    badge: "75% Proficiency",
+    description: "C programming fundamentals, memory allocation, pointers, and foundational operating system concepts.",
+    tags: ["C Language", "Memory Management", "Pointers", "POSIX", "Data Structures"],
+  },
+  {
+    id: "tools",
+    title: "Git & Workflow Tools",
+    category: "Developer Tooling",
+    badge: "85% Proficiency",
+    description: "Branching strategies, version control, GitHub collaboration, and clean, human-readable commits.",
+    tags: ["Git", "GitHub", "VS Code", "Vite", "Linux Shell"],
+  },
+  {
+    id: "cloud-db",
+    title: "Cloud & Databases",
+    category: "Backend & Storage",
+    badge: "80% Proficiency",
+    description: "Firebase Realtime Database, Firestore, cloud authentication, SQL querying, and database schema design.",
+    tags: ["Firebase", "SQL", "Cloud Storage", "JSON APIs"],
+  },
+  {
+    id: "problem-solving",
+    title: "Algorithms & Logic",
+    category: "Computer Science",
+    badge: "80% Proficiency",
+    description: "Sorting algorithms, graph traversal, greedy techniques, and algorithmic complexity analysis.",
+    tags: ["Data Structures", "Algorithms", "Time Complexity", "Debugging"],
+  },
+];
+
+export const timelineMilestones = [
+  {
+    period: "2024 – Present",
+    role: "Full Stack & Systems Development",
+    institution: "SARV Infotech Internship & Open Source",
+    description: "Architecting modular React web apps, socket-based threat monitoring systems, and contributing to open-source developer tooling.",
+  },
+  {
+    period: "2023",
+    role: "National Youth Festival Winner (1st Place)",
+    institution: "National Innovation & Youth Summit",
+    description: "Awarded First Place nationally for developing Campus Gigs, a student collaboration and gig marketplace platform.",
+  },
+  {
+    period: "2022 – 2023",
+    role: "Foundations in Systems & Web",
+    institution: "Computer Science & Engineering Curriculum",
+    description: "Mastered low-level C programming, operating system principles, data structures, and transitioned into advanced Python and React.",
+  },
+];
+
+export const faqsList = [
+  {
+    question: "What roles are you looking for?",
+    answer: "I am actively seeking Software Engineering internships, Python Backend roles, or Frontend/Full-Stack React developer positions.",
+  },
+  {
+    question: "Are you open to remote or hybrid internships?",
+    answer: "Yes! I am fully equipped for remote, hybrid, or on-site roles across India.",
+  },
+  {
+    question: "Can I inspect the source code of your projects?",
+    answer: "All my core projects have public repositories available on my GitHub profile at github.com/Pr1nce-Raj.",
+  },
+  {
+    question: "How do you approach team collaboration?",
+    answer: "I believe in clean Git branching, descriptive commit messages, thorough documentation, and respectful peer reviews.",
+  },
+];
